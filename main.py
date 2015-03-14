@@ -24,6 +24,7 @@ def print_server_stats(url):
 if __name__ == '__main__':
     EU_URL = 'http://status.riftgame.com/eu-status.xml'
     NA_URL = 'http://status.riftgame.com/na-status.xml'
+    
     print '___EU_SERVER___'
     print_server_stats(EU_URL)
 
